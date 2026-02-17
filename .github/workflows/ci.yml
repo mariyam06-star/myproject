@@ -16,6 +16,6 @@ jobs:
         with:
           args: >
             -Dsonar.organization=mariyam06-star123
-            -Dsonar.projectKey=a1692b079e015479e7551459da0daaf7ba5578e2
+            -Dsonar.projectKey=mariyam06-star123_myproject
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
